@@ -68,24 +68,24 @@ This project demonstrates:
 2.Run all cells → A public ngrok URL will appear (e.g. http://xxxx.ngrok.io).
 
  3.Open that link in your browser → Upload an image → Get Alzheimer’s prediction.
-# 🚀 Option B: Run Locally (Recommended for Development)
+### 🚀 Option B: Run Locally (Recommended for Development)
 
-# 1. Clone the repository
-git clone https://github.com/Muthumaha-S/Alzheimer_Prediction.git
-cd Alzheimer_Prediction
+#### 1. Clone the repository
+   git clone https://github.com/Muthumaha-S/Alzheimer_Prediction.git
+   cd Alzheimer_Prediction
 
-# 2. Install dependencies
-pip install flask tensorflow opencv-python
+#### 2. Install dependencies
+     pip install flask tensorflow opencv-python
 
-# 3. Place your trained model file
-# Copy your trained model (alzheimer_prediction_model.h5) into the project folder.
+#### 3. Place your trained model file
+     Copy your trained model (alzheimer_prediction_model.h5) into the project folder.
 
-# 4. Run the app
-# Option 1: Run app_py.ipynb directly in Jupyter Notebook
-# Option 2: Convert notebook to .py and run
-python app.py
+#### 4. Run the app
+ Option 1: Run app_py.ipynb directly in Jupyter Notebook
+ Option 2: Convert notebook to .py and run
+  python app.py
 
-# 5. Open in browser
+#### 5. Open in browser
 http://127.0.0.1:5000/
 
 
