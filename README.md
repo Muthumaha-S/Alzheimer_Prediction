@@ -78,12 +78,12 @@ This project demonstrates:
      pip install flask tensorflow opencv-python
 
 #### 3. Place your trained model file
-     Copy your trained model (alzheimer_prediction_model.h5) into the project folder.
+Copy your trained model (alzheimer_prediction_model.h5) into the project folder.
 
 #### 4. Run the app
- Option 1: Run app_py.ipynb directly in Jupyter Notebook
- Option 2: Convert notebook to .py and run
-  python app.py
+    Option 1: Run app_py.ipynb directly in Jupyter Notebook.
+    Option 2: Convert notebook to .py and run.
+    python app.py
 
 #### 5. Open in browser
 http://127.0.0.1:5000/
