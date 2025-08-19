@@ -5,9 +5,9 @@ It includes two notebooks: one for model development and one for app logic.
 
 ## Repository Structure
 Alzheimer_Prediction/
-├── main.ipynb        # Core ML pipeline (data processing, training, evaluation)
-├── app_py.ipynb      # Flask application prototype for predictions
-└── README.md         # Project documentation
+├── main.ipynb .       # Core ML pipeline (data processing, training, evaluation)
+├── app_py.ipynb  .    # Flask application prototype for predictions
+└── README.md .        # Project documentation
 
 
 ---
