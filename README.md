@@ -65,7 +65,7 @@ This project demonstrates:
 #### Option A: Run in **Google Colab** with ngrok
 1. Install dependencies:
    ```bash
-   !pip install flask flask-ngrok tensorflow opencv-python
+   pip install flask flask-ngrok tensorflow opencv-python
 2.Run all cells → A public ngrok URL will appear (e.g. http://xxxx.ngrok.io).
 
  3.Open that link in your browser → Upload an image → Get Alzheimer’s prediction.
