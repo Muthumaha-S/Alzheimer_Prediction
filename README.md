@@ -5,9 +5,10 @@ It includes two notebooks: one for model development and one for app logic.
 
 ## Repository Structure
 Alzheimer_Prediction/
-├── main.ipynb       # Core ML pipeline (data processing, training, evaluation)
-├── app_py.ipynb     # Flask application prototype for predictions
-└── README.md        # Project documentation
+├── main.ipynb        # Core ML pipeline (data processing, training, evaluation)
+├── app_py.ipynb      # Flask application prototype for predictions
+└── README.md         # Project documentation
+
 
 ---
 
@@ -19,7 +20,7 @@ This project demonstrates:
 
 ---
 
-## ⚙ Features
+##  Features
 - Data preprocessing & cleaning  
 - Exploratory Data Analysis (EDA)  
 - ML model training & evaluation  
@@ -28,7 +29,7 @@ This project demonstrates:
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 - **Python**
 - **Pandas**, **NumPy**
 - **Scikit-learn**
@@ -40,16 +41,16 @@ This project demonstrates:
 
 ---
 
-## 📊 Results
+##  Results
 - Built ML models to predict Alzheimer’s disease categories.  
 - Evaluated performance using accuracy, precision, recall, and F1-score.  
 - Developed a **Flask web app prototype** (`app_py.ipynb`) to demonstrate practical use.  
 
 ---
 
-## 🔧 How to Run
+##  How to Run
 
-### ▶️ 1. Run `main.ipynb` (Model Development)
+###  1. Run `main.ipynb` (Model Development)
 1. Open `main.ipynb` in **Google Colab** or Jupyter Notebook.  
 2. Run all cells to:
    - Load and preprocess the dataset.  
@@ -59,7 +60,7 @@ This project demonstrates:
 
 ---
 
-### ▶️ 2. Run `app_py.ipynb` (Flask App Prototype)
+###  2. Run `app_py.ipynb` (Flask App Prototype)
 
 #### Option A: Run in **Google Colab** with ngrok
 1. Install dependencies:
