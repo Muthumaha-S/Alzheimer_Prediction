@@ -5,10 +5,9 @@ It includes two notebooks: one for model development and one for app logic.
 
 ## Repository Structure
 Alzheimer_Prediction/
-│── main.ipynb # Core ML pipeline (data processing, training, evaluation)
-│── app_py.ipynb # Flask application prototype for predictions
-│── README.md # Project documentation
-
+├── main.ipynb       # Core ML pipeline (data processing, training, evaluation)
+├── app_py.ipynb     # Flask application prototype for predictions
+└── README.md        # Project documentation
 
 ---
 
@@ -69,29 +68,34 @@ This project demonstrates:
 2.Run all cells → A public ngrok URL will appear (e.g. http://xxxx.ngrok.io).
 
  3.Open that link in your browser → Upload an image → Get Alzheimer’s prediction.
-#### Option B: Run Locally (Recommended for development)
+#### 🚀 Option B: Run Locally (Recommended for Development)
 
-Clone the repository:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Muthumaha-S/Alzheimer_Prediction.git
+   cd Alzheimer_Prediction
+Install dependencies
 
-git clone https://github.com/Muthumaha-S/Alzheimer_Prediction.git
-cd Alzheimer_Prediction
-
-
-Install dependencies:
-
+bash
+Copy code
 pip install flask tensorflow opencv-python
+Place your trained model file
+Copy your trained model (alzheimer_prediction_model.h5) into the project folder.
 
+Run the app
 
-Place your trained model file (alzheimer_prediction_model.h5) in the project folder.
+Option 1: Run app_py.ipynb directly in Jupyter Notebook
 
-Run the app:
+Option 2: Convert notebook to .py and run
 
-Either directly run app_py.ipynb in Jupyter Notebook.
-
-Or copy its content into app.py and run:
-
+bash
+Copy code
 python app.py
+Open in browser
+
+cpp
+Copy code
+http://127.0.0.1:5000/
 
 
-Open in browser → http://127.0.0.1:5000/
-.
+
